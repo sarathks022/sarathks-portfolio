@@ -1,0 +1,76 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #222;
+  color: #fff;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ddd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 8px 0;
+  font-size: 1.1em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666;
+}
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark section {
+  background-color: #1e1e1e;
+}
+
+body.dark nav a {
+  color: #bbb;
+}
+
+body.dark nav a:hover {
+  color: #fff;
+}
